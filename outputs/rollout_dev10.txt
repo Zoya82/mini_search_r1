@@ -1,0 +1,67 @@
+======================================================================
+[PROMPT   ]  Question: Which alcoholic beverage company sponsored the Martini International professional golf tournament?
+[ASSISTANT]  '<search>Martini International professional golf tournament</search>'
+[OBS      ]  "<information>Martini International: The Martini International was a men's professional golf tournament that was held from 1961 to 1983. It was hosted by several different golf clubs in England, Scotland and Wales. It was part of the European Tour's schedule from the tour's first official season in 1" ...
+[ASSISTANT]  'Martini & Rossi'
+pred=None   gold='Martini & Rossi'   status=ABORTED   reward=0
+======================================================================
+[PROMPT   ]  Question: What  company did the actor, sing and songwriter who did a cover of "Baby It's Cold Outside" for the Glee Christmas Album co-find?
+[ASSISTANT]  '<search>Glee Christmas Album</search>'
+[OBS      ]  '<information>Glee: The Music, The Christmas Album: Glee: The Music, The Christmas Album is the fourth soundtrack album by the cast of the American musical television series "Glee". The album was released on November 9, 2010 and accompanies the season two Christmas episode "A Very Glee Christmas", ai' ...
+[ASSISTANT]  'The company that the actor, singer-songwriter, and composer co-found is the Oberoi Group.'
+pred=None   gold='StarKid Productions'   status=ABORTED   reward=0
+======================================================================
+[PROMPT   ]  Question: On the shore of what lake is the city where the East Avenue station was located?
+[ASSISTANT]  '<search>East Avenue station</search>'
+[OBS      ]  '<information>East Avenue (RIRTR station): East Avenue is a former Rochester Industrial and Rapid Transit Railway station located in Rochester, New York. It was closed in 1956 along with the rest of the line.\nBedford Avenue (BMT Canarsie Line): Bedford Avenue is a station on the BMT Canarsie Line of ' ...
+[ASSISTANT]  'The East Avenue station is located on the shore of the lake.'
+pred=None   gold='Lake Ontario'   status=ABORTED   reward=0
+======================================================================
+[PROMPT   ]  Question: Nicholar Winton, who's work was found out in 1988, was given what nickname by the British press?
+[ASSISTANT]  '<search>Nicholas Winton</search>'
+[OBS      ]  '<information>Nicholas Winton: The world found out about his work over 50 years later, in 1988. The British press dubbed him the "British Schindler".\nNicky\'s Family: Nicky\'s Family (Czech: "Nickyho rodina" ) is a 2011 Czech docudrama directed by Matej Mináč. It is based on the work of Nicholas Winton' ...
+[ASSISTANT]  '<answer>nicki</answer>'
+pred='nicki'   gold='British Schindler'   status=COMPLETED   reward=0
+======================================================================
+[PROMPT   ]  Question: What was the original name of the manufacturer of the wind turbines used by The Hackberry Wind Project?
+[ASSISTANT]  '<search>The Hackberry Wind Project</search>'
+[OBS      ]  '<information>Hackberry Wind Project: The Hackberry Wind Project is a US $350 million wind farm in Shackelford County, Texas. The project consists of 72 Siemens wind turbines with a total capacity of 166 megawatts. The energy is used by residents of the City of Austin and surrounding communities. Con' ...
+[ASSISTANT]  'The original name of the manufacturer of the wind turbines used by The Hackberry Wind Project was Siemens.'
+pred=None   gold='Danregn Vindkraft'   status=ABORTED   reward=0
+======================================================================
+[PROMPT   ]  Question: What band that Jens Bogren worked with was originally called "Inferior Breed"?
+[ASSISTANT]  '<search>Jens Bogren</search>'
+[OBS      ]  '<information>Jens Bogren: Jens Peter Daniel Bogren is a record producer, mixer and recording engineer who has worked on albums by Opeth, Dimmu Borgir, Sepultura, Arch Enemy, At The Gates, Katatonia, Babymetal, Soilwork, James LaBrie, Moonspell, God Forbid, Kreator, Devin Townsend, Ihsahn, Dark Tranq' ...
+[ASSISTANT]  'The band that Jens Bogren worked with was Infidel Breed.'
+pred=None   gold='Soilwork'   status=ABORTED   reward=0
+======================================================================
+[PROMPT   ]  Question: What is the agreement used in the Universal Metric to Flow operation and is a commitment between service provider and customer?
+[ASSISTANT]  '<search>Universal Metric to Flow Agreement</search>'
+[OBS      ]  '<information>Universal Metric to Flow: Universal Metric to Flow (UMF) technology enhances the ability to utilize Cisco NetFlow data for rapid traffic analysis. Developed by network performance management company, "SevOne", in early 2010 and announced at Cisco Live in Las Vegas in July that year, the' ...
+[ASSISTANT]  '<answer>Universal Metric to Flow Technology</answer>'
+pred='Universal Metric to Flow Technology'   gold='service-level agreement'   status=COMPLETED   reward=0
+======================================================================
+[PROMPT   ]  Question: The winner of the 16th Lumieres Awards tells the tale of nine what?
+[ASSISTANT]  '<search>the story of nine</search>'
+[OBS      ]  '<information>Cautionary Tales (Heroes): "Cautionary Tales" is the ninth episode of the second season of the NBC science fiction drama series "Heroes". It aired on November 19, 2007.\nSeven of Nine: Seven of Nine (born Annika Hansen) is a fictional character who appears in seasons through seven of the' ...
+[ASSISTANT]  '<answer>heroes</answer>'
+pred='heroes'   gold='Trappist monks'   status=COMPLETED   reward=0
+======================================================================
+[PROMPT   ]  Question: The Battle of Ephesus ended in defeat for the dynasty ruled by the family of what descent?
+[ASSISTANT]  '<search>descendant of the family of the Oxyrani family</search>'
+[OBS      ]  '<information>Asmatullah Rohani: Asmatullah Rohani is son of a prominent judge Hamdullah and he comes from Yousufzia tribe in eastern Kunar Province. His entire family is known as an intellectual family in eastern Kunar province because his father and his uncles were well educated and they have serve' ...
+[ASSISTANT]  'The family descended from the Oxyrani family'
+pred=None   gold='Macedonian Greek'   status=ABORTED   reward=0
+======================================================================
+[PROMPT   ]  Question: Which high school in the Incorporated Village of Garden City, did American football player Don McCauley attend?
+[ASSISTANT]  '<search>Garden City, Inc. High School</search>'
+[OBS      ]  '<information>Garden City High School (New York): Garden City High School is the public high school in the Incorporated Village of Garden City in the Town of Hempstead, New York, United States. The principal of the school is Nanine McLaughlin. Assistant principals are Kevin Steingruebner and Dave Per' ...
+[ASSISTANT]  'American football player Don McCauley attended Garden City High School (Texas).'
+pred=None   gold='Garden City High School'   status=ABORTED   reward=0
+
+######################################################################
+dev 前 10 题（SFT 前，few-shot 引导）：
+  吐出 <search>       10/10
+  吐出 <answer>       3/10
+  COMPLETED           3/10
+  EM=1                0/10
